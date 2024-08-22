@@ -2,11 +2,23 @@
 body {
   font-family: 'Lato', sans-serif;
   color: #040000;
+
 }
+
+
 
 .layout_padding {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+#cos{
+  width: 95%;
+  max-width: 1000px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 36px;
+  opacity: 0.9;
 }
 
 .layout_padding2 {
