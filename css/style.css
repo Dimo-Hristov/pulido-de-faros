@@ -604,6 +604,16 @@ a:focus {
   display: flex;
 }
 
+#future{
+  margin-top: 98px;
+}
+
+@media (max-width: 993px){
+  #future{
+    margin-top: 0px;
+  }
+}
+
 
 
 .client_section .box .client_id .img-box {
