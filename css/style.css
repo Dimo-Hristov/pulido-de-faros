@@ -12,6 +12,7 @@ body {
   padding-bottom: 120px;
 }
 
+
 #cos{
   width: 95%;
   max-width: 1000px;
@@ -602,6 +603,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
 }
+
+
 
 .client_section .box .client_id .img-box {
   width: 125px;
