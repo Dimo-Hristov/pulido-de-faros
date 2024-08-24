@@ -604,6 +604,37 @@ a:focus {
   display: flex;
 }
 
+#offer {
+  border-radius: 50%; /* Keep the element circular */
+  clip-path: inset(0 0 16px 0); /* Hide 16 pixels from the bottom */
+  position: absolute;
+  right: -10px;
+  top: -20px;
+  width: 150px;
+  height: 150px;
+  z-index: 50;
+  background-color: #ffcc00; /* Background color for visibility */
+  transform: rotate(45deg); /* Rotate the element */
+  animation: heartbeat 1s infinite; /* Adds heartbeat animation */
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: rotate(45deg) scale(1); /* Original size */
+  }
+  50% {
+    transform: rotate(45deg) scale(1.2); /* Grow to 120% of original size */
+  }
+  100% {
+    transform: rotate(45deg) scale(1); /* Return to original size */
+  }
+}
+
+
+
+
+
+
 #future{
   margin-top: 98px;
 }
