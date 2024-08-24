@@ -630,6 +630,10 @@ a:focus {
   }
 }
 
+body{
+  overflow-x: hidden;
+}
+
 
 #spanish-flag {
   height: 40px;
